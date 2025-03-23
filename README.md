@@ -37,7 +37,7 @@ npm run start:dev
 
 ## Deployment to _AWS_
 
-The following deployes the _RESTful api_ to [AWS Lambda](https://aws.amazon.com/lambda/) with [Amazon API Gateway](https://aws.amazon.com/api-gateway/) in a proxy configuration. The data is stored and managed in [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).
+The following deploys the _RESTful api_ to [AWS Lambda](https://aws.amazon.com/lambda/) with [Amazon API Gateway](https://aws.amazon.com/api-gateway/) in a proxy configuration. The data is stored and managed in [Amazon DynamoDB](https://aws.amazon.com/dynamodb/).
 
 ### Sign in to AWS
 
