@@ -1,0 +1,38 @@
+{
+  "name": "my-tasks-api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "clean": "rm -rf dist",
+    "build:dev": "rimraf dist && tsc --watch",
+    "start:dev": "rimraf dist && concurrently \"tsc --watch\" && \"serverless offline start\"",
+    "lint": "eslint src --ext .ts",
+    "aws:deploy": "serverless deploy",
+    "aws:remove": "serverless remove"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "serverless-dynamodb": "^0.2.56",
+    "serverless-http": "^3.2.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.11",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.23.0",
+    "rimraf": "^6.0.1",
+    "serverless-offline": "^14.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
