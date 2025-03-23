@@ -1,6 +1,6 @@
 # my-Tasks-api
 
-This is the frontend module of the `my-Tasks` project, a small _to-do_ App for creating and tracking tasks and managing their status (_To Do_, _In Progress_, _Completed_).
+This is the RESTful api module of the `my-Tasks` project, a small _to-do_ App for creating and tracking tasks and managing their status (_To Do_, _In Progress_, _Completed_).
 
 The `my-Tasks` project hast two modules (repositories:
 
